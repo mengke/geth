@@ -1,2 +1,28 @@
-*.class
+# idea ignore
+.idea/
+*.ipr
+*.iws
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# temp ignore
 *.log
+*.diff
+*.patch
+*.tmp
+
+# maven/sbt ignore
+target/
+
+# kdiff3 ignore
+*.orig
+
+# scala
+.scalastyle
+.multi-jvm
+.project
+.sbtserver
+.sbtserver.lock
+.scala_dependencies
